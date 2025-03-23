@@ -1,0 +1,53 @@
+body {
+    width: 300px;
+    padding: 15px;
+    font-family: Arial, sans-serif;
+}
+
+#status {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.status.safe {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+    border: 1px solid #a5d6a7;
+}
+
+.status.danger {
+    background-color: #ffebee;
+    color: #c62828;
+    border: 1px solid #ef9a9a;
+}
+
+#confidence {
+    margin: 10px 0;
+    padding: 5px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.confidence.high {
+    color: #2e7d32;
+    background-color: #e8f5e9;
+}
+
+.confidence.medium {
+    color: #f57c00;
+    background-color: #fff3e0;
+}
+
+.confidence.low {
+    color: #c62828;
+    background-color: #ffebee;
+}
+
+#url {
+    word-break: break-all;
+    margin: 10px 0;
+    font-size: 12px;
+    color: #666;
+} 
